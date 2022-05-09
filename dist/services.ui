@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ServicesDialog</class>
+ <widget class="QDialog" name="ServicesDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>761</width>
+    <height>579</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #adcef0</string>
+  </property>
+  <widget class="QPushButton" name="srvcBtnMain">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>510</y>
+     <width>231</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Montserrat</family>
+     <pointsize>14</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #184e85;
+color: white;
+border: 2px solid #555;
+border-radius: 10px;
+border: none;</string>
+   </property>
+   <property name="text">
+    <string>Главная</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnOrder">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>410</y>
+     <width>221</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Montserrat</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #184e85;
+color: white;
+border: 2px solid #555;
+border-radius: 10px;
+border: none;</string>
+   </property>
+   <property name="text">
+    <string>Оформить заказ</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="srvcBtnActive">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>510</y>
+     <width>231</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Montserrat</family>
+     <pointsize>14</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #184e85;
+color: white;
+border: 2px solid #555;
+border-radius: 10px;
+border: none;</string>
+   </property>
+   <property name="text">
+    <string>Активные заказы</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupServices">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>761</width>
+     <height>391</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Montserrat Light</family>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 2px solid #555;
+border-radius: 35px;
+border-style: outset;
+background-color: #82b5e8;
+border: none;
+</string>
+   </property>
+   <property name="title">
+    <string>      Услуги</string>
+   </property>
+   <widget class="QTreeWidget" name="treeWidget_Services">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>721</width>
+      <height>351</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat Light</family>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 2px solid #555;
+border-radius: 10px;
+border-style: solid;
+border-color: #0e688f;</string>
+    </property>
+    <property name="columnCount">
+     <number>1</number>
+    </property>
+    <attribute name="headerVisible">
+     <bool>true</bool>
+    </attribute>
+    <attribute name="headerCascadingSectionResizes">
+     <bool>false</bool>
+    </attribute>
+    <attribute name="headerDefaultSectionSize">
+     <number>600</number>
+    </attribute>
+    <attribute name="headerHighlightSections">
+     <bool>false</bool>
+    </attribute>
+    <attribute name="headerShowSortIndicator" stdset="0">
+     <bool>false</bool>
+    </attribute>
+    <attribute name="headerStretchLastSection">
+     <bool>true</bool>
+    </attribute>
+    <column>
+     <property name="text">
+      <string>Перечень предоставляемых услуг</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>Montserrat Light</family>
+       <pointsize>7</pointsize>
+       <stylestrategy>PreferAntialias</stylestrategy>
+       <kerning>false</kerning>
+      </font>
+     </property>
+     <property name="textAlignment">
+      <set>AlignLeading|AlignVCenter</set>
+     </property>
+    </column>
+    <item>
+     <property name="text">
+      <string>Пошив</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Ремонт</string>
+     </property>
+    </item>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

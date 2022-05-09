@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>remove</class>
+ <widget class="QDialog" name="remove">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>761</width>
+    <height>578</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #adcef0</string>
+  </property>
+  <widget class="QPushButton" name="btnDelete">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>410</y>
+     <width>221</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Montserrat</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #184e85;
+color: white;
+border: 2px solid #555;
+border-radius: 10px;
+border: none;</string>
+   </property>
+   <property name="text">
+    <string>Удалить</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupActive">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>761</width>
+     <height>391</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Montserrat Light</family>
+     <pointsize>8</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 2px solid #555;
+border-radius: 35px;
+border-style: outset;
+background-color: #82b5e8;
+border: none;
+</string>
+   </property>
+   <property name="title">
+    <string>     Активные заказы</string>
+   </property>
+   <widget class="QTableView" name="tableActives">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>721</width>
+      <height>351</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat Light</family>
+      <pointsize>8</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 2px solid #555;
+border-radius: 10px;
+border-style: solid;
+border-color: #0e688f;</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="btnMove">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>410</y>
+     <width>221</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Montserrat</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #184e85;
+color: white;
+border: 2px solid #555;
+border-radius: 10px;
+border: none;</string>
+   </property>
+   <property name="text">
+    <string>Перенести</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="actBtnServices">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>510</y>
+     <width>231</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Montserrat</family>
+     <pointsize>14</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #184e85;
+color: white;
+border: 2px solid #555;
+border-radius: 10px;
+border: none;</string>
+   </property>
+   <property name="text">
+    <string>Услуги</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="actBtnMain">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>510</y>
+     <width>231</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Montserrat</family>
+     <pointsize>14</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #184e85;
+color: white;
+border: 2px solid #555;
+border-radius: 10px;
+border: none;</string>
+   </property>
+   <property name="text">
+    <string>Главная</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

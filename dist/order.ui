@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>483</width>
+    <height>513</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="whatsThis">
+   <string/>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #adcef0</string>
+  </property>
+  <widget class="QGroupBox" name="groupChoose">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>481</width>
+     <height>281</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Montserrat Light</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 2px solid #555;
+border-radius: 35px;
+border-style: outset;
+background-color: #82b5e8;
+border: none;
+</string>
+   </property>
+   <property name="title">
+    <string>     Пожалуйста, выберите услугу</string>
+   </property>
+   <widget class="QTableView" name="list_of_services">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>441</width>
+      <height>241</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat Light</family>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 2px solid #555;
+border-radius: 35px;
+border-style: outset;
+border-color: #374c61;</string>
+    </property>
+    <attribute name="horizontalHeaderMinimumSectionSize">
+     <number>218</number>
+    </attribute>
+    <attribute name="horizontalHeaderDefaultSectionSize">
+     <number>218</number>
+    </attribute>
+    <attribute name="horizontalHeaderHighlightSections">
+     <bool>false</bool>
+    </attribute>
+    <attribute name="verticalHeaderVisible">
+     <bool>false</bool>
+    </attribute>
+    <attribute name="verticalHeaderHighlightSections">
+     <bool>false</bool>
+    </attribute>
+    <attribute name="verticalHeaderShowSortIndicator" stdset="0">
+     <bool>true</bool>
+    </attribute>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="ordBtnOK">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>470</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Montserrat</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #184e85;
+color: white;
+border: 2px solid #555;
+border-radius: 10px;
+border: none;</string>
+   </property>
+   <property name="text">
+    <string>ОК</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ordBtnCancel">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>470</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Montserrat</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #184e85;
+color: white;
+border: 2px solid #555;
+border-radius: 10px;
+border: none;</string>
+   </property>
+   <property name="text">
+    <string>Отмена</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>310</y>
+     <width>121</width>
+     <height>136</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QLineEdit" name="lineID">
+      <property name="styleSheet">
+       <string notr="true">border: 2px solid #555;
+border-radius: 10px;
+border-style: solid;
+border-color: #374c61;</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lineFIO">
+      <property name="styleSheet">
+       <string notr="true">border: 2px solid #555;
+border-radius: 10px;
+border-style: solid;
+border-color: #374c61;</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lineChest">
+      <property name="styleSheet">
+       <string notr="true">border: 2px solid #555;
+border-radius: 10px;
+border-style: solid;
+border-color: #374c61;</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lineWaist">
+      <property name="styleSheet">
+       <string notr="true">border: 2px solid #555;
+border-radius: 10px;
+border-style: solid;
+border-color: #374c61;</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lineHip">
+      <property name="styleSheet">
+       <string notr="true">border: 2px solid #555;
+border-radius: 10px;
+border-style: solid;
+border-color: #374c61;</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>310</y>
+     <width>101</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="layoutFOOO">
+    <item>
+     <widget class="QLabel" name="ch_service_2">
+      <property name="font">
+       <font>
+        <family>Montserrat Light</family>
+       </font>
+      </property>
+      <property name="text">
+       <string>Номер заказа:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="font">
+       <font>
+        <family>Montserrat Light</family>
+       </font>
+      </property>
+      <property name="text">
+       <string>ФИ:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_2">
+      <property name="font">
+       <font>
+        <family>Montserrat Light</family>
+       </font>
+      </property>
+      <property name="text">
+       <string>Обхват груди:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_3">
+      <property name="font">
+       <font>
+        <family>Montserrat Light</family>
+       </font>
+      </property>
+      <property name="text">
+       <string>Обхват талии:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_4">
+      <property name="font">
+       <font>
+        <family>Montserrat Light</family>
+       </font>
+      </property>
+      <property name="text">
+       <string>Обхват бёдер:</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget_3">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>310</y>
+     <width>119</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="layoutDDTD">
+    <item>
+     <widget class="QLabel" name="ch_service">
+      <property name="font">
+       <font>
+        <family>Montserrat Light</family>
+       </font>
+      </property>
+      <property name="text">
+       <string>Услуга:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_7">
+      <property name="font">
+       <font>
+        <family>Montserrat Light</family>
+       </font>
+      </property>
+      <property name="text">
+       <string>Длина спины:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_5">
+      <property name="font">
+       <font>
+        <family>Montserrat Light</family>
+       </font>
+      </property>
+      <property name="text">
+       <string>Длина изделия:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_8">
+      <property name="font">
+       <font>
+        <family>Montserrat Light</family>
+       </font>
+      </property>
+      <property name="text">
+       <string>Телефон:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_9">
+      <property name="font">
+       <font>
+        <family>Montserrat Light</family>
+       </font>
+      </property>
+      <property name="text">
+       <string>Дата прихода:</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget_4">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>310</y>
+     <width>121</width>
+     <height>136</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_4">
+    <item>
+     <widget class="QLineEdit" name="lineService">
+      <property name="styleSheet">
+       <string notr="true">border: 2px solid #555;
+border-radius: 10px;
+border-style: solid;
+border-color: #374c61;</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lineSpine">
+      <property name="styleSheet">
+       <string notr="true">border: 2px solid #555;
+border-radius: 10px;
+border-style: solid;
+border-color: #374c61;</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lineThing">
+      <property name="styleSheet">
+       <string notr="true">border: 2px solid #555;
+border-radius: 10px;
+border-style: solid;
+border-color: #374c61;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lineNumber">
+      <property name="styleSheet">
+       <string notr="true">border: 2px solid #555;
+border-radius: 10px;
+border-style: solid;
+border-color: #374c61;</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lineDate">
+      <property name="styleSheet">
+       <string notr="true">border: 2px solid #555;
+border-radius: 10px;
+border-style: solid;
+border-color: #374c61;</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
